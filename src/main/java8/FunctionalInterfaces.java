@@ -1,9 +1,11 @@
-package main.java8.functionalprogramming;
+package main.java8;
 
 public class FunctionalInterfaces {
     //only 1 abstract method, any number of default and static methods
     //default : Runnable, Callable, Comparable, ActionListener
     //@FunctionInterface introduced in java 8
+    //default method(can be overridden)
+    //static method(cannot be overridden)
 
     public static void main(String[] args) {
         Ola o = new Ola();// this is old way of doing

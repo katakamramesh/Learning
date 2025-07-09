@@ -1,14 +1,14 @@
-package main.java8.functionalprogramming;
+package main.java8;
 
 public class LambdaExpressions {
 
-    //what is lambda expresion --> it is a anonmys fuction which has no return , no access modifier, no method name
+    //what is lambda expression --> it is an anonymous function which has no return type, no access modifier, no method name
 
     //before java 8 - no args
     public void print(){
         System.out.println("all is ok");
     }
-    //in java 8 () -> sout("all is ok);
+    //in java 8 () -> sout("all is ok");
 
     //before java 8 -- with args
     public void sum(int a , int b){
