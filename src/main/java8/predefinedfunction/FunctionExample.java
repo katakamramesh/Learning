@@ -35,7 +35,6 @@ public class FunctionExample {
         Predicate<Employee> predicate = y -> y.salary > 25000;
         System.out.println( " ---- " + predicate.test(al.get(0)));
 
-
         //first f2 will execute and the inputs is string "2", the result of f1 is feed to f2;
         //this is different from filter, filter will apply the on the every record in above we are using response of one to another
         System.out.println("andThen- " + f2.andThen(f1).apply(String.valueOf(2)));
@@ -44,7 +43,6 @@ public class FunctionExample {
 
         //first f1 will execute and the result is feed to f4
         System.out.println("compose- " + f4.compose(f1).apply(5));
-
 
     }
 }
