@@ -21,12 +21,14 @@ public class PredefinedFunctionInterfaces {
             return null;
         }
     };
+    // it accepts a parameter but does not return anything
     Consumer consumer = new Consumer() {
         @Override
         public void accept(Object o) {
 
         }
     };
+    // doesn't accept anything but returns an object
     Supplier supplier = new Supplier() {
         @Override
         public Object get() {
