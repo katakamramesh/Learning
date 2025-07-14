@@ -1,0 +1,7 @@
+    collection - to represent the group of data/objects as single entity
+
+    streams - to process the data from the collections
+
+    filter - it takes predicate as parameter, predicate will return the boolean value
+
+    foreach - it is a consumer, takes value doesn't return anything
