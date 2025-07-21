@@ -33,5 +33,14 @@ public class FilterExample {
 
         //multiple conditions
         numbers.stream().filter(a -> a % 2 == 0 && a % 3 == 0).forEach(System.out :: print);
+        System.out.println("");
+
+        //custom class
+        List<Product> productList = new ArrayList<>();
+        productList.add(new Product(1,"phone", 10000));
+        productList.add(new Product(2,"tv", 20000));
+        productList.add(new Product(1,"laptop", 30000));
+
+        productList.stream().filter(x -> x.price > 15000).forEach(y -> System.out.print(y.name));
     }
 }
