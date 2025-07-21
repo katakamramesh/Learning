@@ -3,11 +3,10 @@ package main.java8.streams;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.SortedMap;
-import java.util.stream.Collectors;
 
 public class FilterExample {
 
+    //filter will take predicate as a parameter
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(12,23,45,56,78,89,90);
         List<Integer> evenNumbers;
