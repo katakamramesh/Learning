@@ -1,4 +1,4 @@
-package main.java8.predefinedfunction;
+package main.java8.functioninterface;
 
 
 class Employee {

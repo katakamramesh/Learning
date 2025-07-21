@@ -1,4 +1,4 @@
-package main.java8;
+package main.java8.functioninterface;
 
 public class FunctionalInterfaces {
     //only 1 abstract method, any number of default and static methods
