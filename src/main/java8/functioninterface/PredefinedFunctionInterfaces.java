@@ -7,14 +7,14 @@ import java.util.function.Supplier;
 
 public class PredefinedFunctionInterfaces {
 
-    // if you want to check condition true, it has 1 args and return boolean
+    // checks condition true or false, it has 1 args and return boolean
     Predicate predicate = new Predicate() {
         @Override
         public boolean test(Object o) {
             return false;
         }
     };
-    // if you want to do operation it has 2 methods, one is args and another is return type
+    // does the operation, 1 args and 1 returns object
     Function function = new Function() {
         @Override
         public Object apply(Object o) {
@@ -28,7 +28,7 @@ public class PredefinedFunctionInterfaces {
 
         }
     };
-    // doesn't accept anything but returns an object
+    // doesn't accept parameter but returns an object
     Supplier supplier = new Supplier() {
         @Override
         public Object get() {
